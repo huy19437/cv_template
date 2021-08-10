@@ -1,0 +1,142 @@
+/* Body */
+/* avatar */
+.content {
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content .row {
+  padding: 0 8px;
+  text-align: left;
+}
+
+.content .row .main-info {
+  background-color: var(--white-color);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content .row .right,
+.content .row .left {
+  padding: 0 8px !important;
+}
+
+.content .row .right .avatar {
+  position: relative;
+  display: block;
+}
+
+.content .row .right .avatar img {
+  width: 100%;
+}
+
+.content .row .right .avatar .name {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  padding: 0 16px;
+}
+
+.content .row .right .info {
+  padding: 0 16px 16px;
+}
+
+.content .row .right .info p {
+  margin: 15px 0;
+}
+
+.content .row .right .info p i {
+  margin-right: 16px;
+  color: var(--primary-color);
+}
+
+.content .row .work-experience,
+.content .row .education {
+  padding: 0 16px;
+  margin-bottom: 16px;
+  background-color: var(--white-color);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content .row .left i {
+  color: var(--primary-color);
+  text-align: center;
+  margin-right: 16px;
+}
+
+.content .row .left .title {
+  display: inline-block;
+  padding: 16px 0;
+  margin: 10px 0;
+}
+
+.content .row .left .left__content {
+  padding: 0.01em 16px;
+}
+
+.content .row .left .left__content p {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.content .row .left .left__content .content__title {
+  margin: 10px 0;
+  opacity: 0.60;
+  font-size: 18px;
+}
+
+.content .row .left .left__content .content__time {
+  margin: 10px 0;
+  color: var(--primary-color);
+  font-size: 16px;
+}
+
+.content .row .left .left__content .content_tag {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  display: inline-block;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.level {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #f1f1f1 !important;
+}
+
+.level .percent {
+  border-radius: 16px;
+  font-size: 12px;
+  width: var(--percent);
+  background-color: var(--primary-color);
+  text-align: center;
+  color: var(--white-color);
+}
+
+/* Footer */
+footer.footer-container {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--primary-color);
+  text-align: center;
+  color: var(--white-color);
+  font-size: 15px;
+  margin-top: 16px;
+}
+
+footer.footer-container p {
+  margin: 15px 0;
+}
+
+footer.footer-container p a {
+  color: var(--white-color);
+}
+
+footer.footer-container i {
+  margin: 4px 0;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,130 @@
+/* Body */
+
+
+/* avatar */
+
+@mixin frameStyle {
+    background-color: var(--white-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    .row {
+        padding: 0 8px;
+        text-align: left;
+        .main-info {
+            @include frameStyle();
+        }
+        .right,
+        .left {
+            padding: 0 8px !important;
+        }
+        .right {
+            .avatar {
+                position: relative;
+                display: block;
+                img {
+                    width: 100%;
+                }
+                .name {
+                    position: absolute;
+                    bottom: 5px;
+                    left: 0;
+                    padding: 0 16px;
+                }
+            }
+            .info {
+                padding: 0 16px 16px;
+                p {
+                    margin: 15px 0;
+                    i {
+                        margin-right: 16px;
+                        color: var(--primary-color)
+                    }
+                }
+            }
+        }
+        .work-experience,
+        .education {
+            padding: 0 16px;
+            margin-bottom: 16px;
+            @include frameStyle();
+        }
+        .left {
+            i {
+                color: var(--primary-color);
+                text-align: center;
+                margin-right: 16px;
+            }
+            .title {
+                display: inline-block;
+                padding: 16px 0;
+                margin: 10px 0;
+            }
+            .left__content {
+                padding: 0.01em 16px;
+                p {
+                    margin: 10px 0;
+                    font-size: 15px;
+                }
+                .content__title {
+                    margin: 10px 0;
+                    opacity: 0.60;
+                    font-size: 18px
+                }
+                .content__time {
+                    margin: 10px 0;
+                    color: var(--primary-color);
+                    font-size: 16px;
+                }
+                .content_tag {
+                    color: var(--white-color);
+                    background-color: var(--primary-color);
+                    border-radius: 4px;
+                    display: inline-block;
+                    padding: 0 8px;
+                    text-align: center
+                }
+            }
+        }
+    }
+}
+
+.level {
+    width: 100%;
+    border-radius: 16px;
+    background-color: #f1f1f1!important;
+    .percent {
+        border-radius: 16px;
+        font-size: 12px;
+        width: var(--percent);
+        background-color: var(--primary-color);
+        text-align: center;
+        color: var(--white-color);
+    }
+}
+
+
+/* Footer */
+
+footer.footer-container {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--white-color);
+    font-size: 15px;
+    margin-top: 16px;
+    p {
+        margin: 15px 0;
+        a {
+            color: var(--white-color);
+        }
+    }
+    i {
+        margin: 4px 0;
+    }
+}
